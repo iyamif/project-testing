@@ -1,4 +1,4 @@
-name: Deploy Laravel to Server
+name: Deploy Laravel (Self Hosted)
 
 on:
   push:
@@ -7,18 +7,16 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: 10.63.140.188
-          username: iyamif
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd /var/www/project-testing
-            git pull origin main
+      - name: Deploy on server
+        run: |
+          cd /var/www/project-testing
+          git pull origin main
+          docker compose down
+          docker compose up -d --build
+
