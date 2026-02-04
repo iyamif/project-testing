@@ -1,0 +1,17 @@
+name: Deploy Laravel (Self Hosted)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Pull latest code
+        run: |
+          cd /var/www/project-testing
+          git pull origin main
+
