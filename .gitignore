@@ -1,0 +1,16 @@
+.env
+.env.*
+
+vendor/
+node_modules/
+
+.DS_Store
+.idea
+.vscode
+
+storage/*.key
+storage/logs/*
+bootstrap/cache/*
+
+composer-setup.php
+public/info.php
