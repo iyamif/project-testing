@@ -10,13 +10,8 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Deploy on server
+      - name: Pull latest code
         run: |
           cd /var/www/project-testing
           git pull origin main
-          docker compose down
-          docker compose up -d --build
 
