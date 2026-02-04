@@ -77,7 +77,7 @@
         <div class="space-y-1">
             <div class="flex items-center gap-2 text-indigo-400 font-bold tracking-widest text-xs uppercase">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                Korlantas PolriIIII
+                Korlantas Polri
             </div>
             <h1 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-white">
                 Operasi Ketupat <span class="text-indigo-500">2024</span>
@@ -98,7 +98,7 @@
             </div>
             <div class="h-8 w-[1px] bg-slate-700"></div>
             <div class="pr-4 pl-2 text-xs text-slate-400 font-medium leading-tight">
-                Pembaruan TTTTerakhir:<br/><span class="text-slate-200 tracking-wide">{{ now()->format('d M Y, H:i:s') }}</span>
+                Pembaruan Terakhir:<br/><span class="text-slate-200 tracking-wide">{{ now()->format('d M Y, H:i:s') }}</span>
             </div>
         </div>
     </header>
