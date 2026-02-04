@@ -98,7 +98,7 @@
             </div>
             <div class="h-8 w-[1px] bg-slate-700"></div>
             <div class="pr-4 pl-2 text-xs text-slate-400 font-medium leading-tight">
-                Pembaruan Terakhir:<br/><span class="text-slate-200 tracking-wide">{{ now()->format('d M Y, H:i:s') }}</span>
+                Pembaruan TTTTerakhir:<br/><span class="text-slate-200 tracking-wide">{{ now()->format('d M Y, H:i:s') }}</span>
             </div>
         </div>
     </header>
