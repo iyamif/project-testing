@@ -169,8 +169,8 @@
             <div class="xl:col-span-3 glass-card p-6 lg:p-10 rounded-[2.5rem] shadow-2xl overflow-hidden relative">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-12 gap-6 relative z-10">
                     <div>
-                        <h3 class="text-2xl font-bold text-white tracking-tight">Analisis Tren Kecelakaan Nasional</h3>
-                        <p class="text-slate-400 mt-2">Dataaaaaa Komparatif Real-time H-7 hingga H+2 (2023 vs 2024)</p>
+                        <h3 class="text-2xl font-bold text-white tracking-tight">Analisis Tren Kecelakaan Nasionalllllll</h3>
+                        <p class="text-slate-400 mt-2">Data Komparatif Real-time H-7 hingga H+2 (2023 vs 2024)</p>
                     </div>
                     <div class="flex gap-2 p-1.5 bg-slate-900/60 rounded-2xl border border-slate-700/50 shadow-inner">
                         <button class="px-6 py-2 text-xs font-extrabold rounded-xl bg-indigo-600 text-white shadow-lg shadow-indigo-600/40 transition-all">Harian</button>
